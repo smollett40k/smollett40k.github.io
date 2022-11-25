@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #00009c 0%, #000000 100%);
+}
+
+p {
+    color: aquamarine;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(104, 106, 106);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-media-icon {
+    align-items: flex-end;
+}
+
+.navbar-toggler {
+    background-color: rgb(104, 106, 106);
+}
+
+.sidebar {
+    background: linear-gradient(270deg, #00009c 0%, #000000 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #00009c 0%, #000000 100%);
+}
+
+.card a {
+    text-decoration: none;
+}
+.slide-text {
+    margin: auto auto;
+}
+
+footer, .btn-outline-primary {
+    background: linear-gradient(270deg, #00009c 0%, #000000 100%);
+}
+
+.footer-text a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.c-j-o {
+    text-align: center;
+}
+
+.media-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.media-links img {
+    width: 40px;
+    margin-inline: 1rem;
+}
+
+@media (max-width: 991px) {
+    .navbar-media-icon {
+        display: none;
+ }
+    .navbar-media-icon2 {
+        display: flex;
+}
+
+    .a-r-r {
+        display: block;
+        text-align: center;
+        margin-top: 0.5rem;
+}
+
+    .c-j-o {
+        display: block;
+        text-align: center;
+}
+
+    .media-links {
+        display: block;
+        text-align: center;
+        margin-bottom: 0.5rem;
+}
+    .media-links img {
+        width: 25px;
+        margin-inline: 0.5rem;
+}
+}
+
+@media (min-width: 992px) {
+    .navbar-media-icon2 {
+        display: none;
+    }
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+    .slide-text {
+        margin-left: 0.5rem;
+    }
+}
+
+.call-anim {
+    animation: call 5s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0% {
+		transform: translate(0);
+	}
+
+    80% {
+		transform: translate(0);
+	}
+
+	82% {
+		transform: translate(-2px, -2px);
+	}
+
+	84% {
+		transform: translate(2px, -2px);
+	}
+
+	86% {
+		transform: translate(-2px, 2px);
+	}
+
+	88% {
+		transform: translate(2px, 2px);
+	}
+
+	90% {
+		transform: translate(-2px, -2px);
+	}
+
+	92% {
+		transform: translate(2px, -2px);
+	}
+
+	94% {
+		transform: translate(-2px, 2px);
+	}
+
+	96% {
+		transform: translate(-2px, -2px);
+	}
+
+	98% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
